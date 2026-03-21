@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/* TYPOGRAPHY
+   This CSS Document will contain all the 
+   type style used thoughout the web site.
+*/
+
+/* Basic CSS Format
+selector {
+	property:value 
+}
+*/
+
+/*BEGIN menu*/
+
+#home_btn, #trains_btn, #books_btn, #gallery_btn, #contact_btn {color:#130902;
+	text-decoration:none;
+	font-family:InaiMathi;
+	font-size:24px}
+
+#menu {padding-right:90px; float:right;}
+
+/*END menu*/
+
+
+/*BEGIN Content Text types*/
+
+h1 {color:#130902;
+	text-decoration:none;
+	font-family:"Franklin Gothic Medium";
+	font-size:28pt}
+	
+h2 {color:#130902;
+	text-decoration:none;
+	font-family:"Franklin Gothic Medium";
+	font-size:18pt;
+	align:"center";}
+	
+h3 {color:#130902;
+	text-decoration:none;
+	font-family:"Century Gothic";
+	font-size:11.5pt}
+	
+h5 {color:#ef7b25;
+	text-decoration:none;
+	font-family:"Century Gothic";
+	font-size:13pt;
+	align:"center";}
+	
+
+	
+h8 {color:#ef7b25;
+	text-decoration:none;align:"left";
+	font-family:"Century Gothic";
+	font-size:11.5pt;
+	font-weight:bold;text-align:left;}	
+	
+	
+.link {color:#ef7b25;text-decoration:none;
+	font-family:"Century Gothic";
+	font-size:11.5pt;}
+	
+.quotes {color:#ef7b25;
+	font-family:"Century Gothic";
+	font-size:11.5pt; tex}
+/*END Content Text types*/
+
+
+/*BEGIN Table Text types*/
+
+
+td {
+	padding-top:3px;
+	color:#130902;
+	vertical-align: center;
+	border: 1px solid #DDDDDD;
+	font-family:"Century Gothic";
+	font-size:11pt;
+	text-type:"i"
+}
+th {color:#ef7b25;padding-top:3px;
+	text-align:left;	font-family:"Century Gothic";
+	font-size:12pt;
+	font-weight: bold;border-left: 1px solid #ffffff;border-right: 1px solid #ffffff;border-top: 1px solid #ffffff;border-bottom: 1px solid #DDDDDD;
+}
+
+/*END Table Text types*/
+
+
+/*BEGIN footer_menu*/
+
+
+#footer_home_btn, #footer_trains_btn, #footer_books_btn, #footer_gallery_btn, #footer_contact_btn {color:#130902;
+	text-decoration:none;
+	font-family:InaiMathi;
+	font-size:24px}
+
+#footer_menu {padding-right:90px; float:right;}
+
+/*END footer_menu*/

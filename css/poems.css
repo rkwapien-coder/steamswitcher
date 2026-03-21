@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#content_poems{height:525px;background-color: #ffffff;width:960px;padding:10px}
+
+#poem_train {border-radius:10px;align:"center";padding-top:20px;padding-bottom:5px;}
+
+#page_highlight_poems_page {height:2px;background-color: #ef7b25;width:280px;
+}

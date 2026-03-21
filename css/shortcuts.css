@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* SHORTCUTS
+   This CSS Document contains all the unique shortcut 
+   techniques for styling elements thoughout the web site.
+*/
+
+/* Basic CSS Format
+selector {
+	property:value 
+}
+*/
+
+#content_container_trial{height:1560px;background-color: #ffffff;width:960px;padding:10px}
+#style_container {height:1000px;background-color: #ffffff;width:960px;padding:10px}
+
+
+/*
+
+1. Divider
+2. Unordered Lists
+3. Pullquotes
+4. DropCaps
+5. Quotes
+6. Highlight Styles
+7. Text Highlight
+8. Google map
+
+*/
+
+
+/* Typography*/
+
+h6{
+	font-family:"InaiMathi";
+	color:#ef7b25;
+	font-size:15pt;
+}
+h7{font-family:"Knights Quest";color:#ef7b25; font-size:30pt;}
+
+/* ------- 1. Divider ------- */
+
+.divider_largeShadow{
+	height: 12px;
+	width: 626px;
+	background-image: url(../images/styles/large_shadow.jpg);
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.divider_largeOrange{
+	height: 12px;
+	width: 626px;
+	background-image: url(../images/styles/highlight.jpg);
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.divider_smallShadow {
+	height: 12px;
+	width: 626px;
+	background-image: url(../images/styles/small_shadow.jpg);
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.divider_crossHatch {
+	height: 10px;
+	background-image:url(../images/styles/many_dots.jpg);
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.divider_dotsThick {
+	height:10px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	background:url(../images/styles/thick_dots.jpg);
+	line-height:0;
+	font-size:0;
+}
+
+
+
+.divider_dotsThin {
+	height:1px;
+	background:url(../images/common/divider4.png);
+	line-height:0;
+	font-size:0;
+	margin-bottom: 10px;
+}
+
+.divider_css {
+	display: block;
+	border-top: dotted 1px #9f9f9f;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+hr {
+	display: block;
+	border-top: dotted 1px #9f9f9f;
+	border-bottom:#FFF;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+/* ------- 2. Unordered Lists ------- */
+
+
+ul.arrow_list li {
+	list-style-image:url(../images/styles/unordered.jpg);
+	margin-left: 40px;
+	padding: 5px 0 0 10px;
+}
+
+
+
+/* -------3. Pullquotes ------- */
+
+.pullquote_right, .pullquote_left {
+padding: 10px;
+margin: 10px;
+float: right; /* or float:left; */
+width: 200px;
+border-top-width: 3px;
+border-bottom-width: 3px;
+border-top-style: solid;
+border-top-color: #2b110e;
+border-bottom-style: solid;
+border-bottom-color: #2b110e;
+font-family: palatino, serif;
+font-size: 18px;
+line-height: 25px;
+text-align: left;
+color:ef7b25;
+}
+
+.pullquote_left {
+	float:left;
+}
+
+/* ------- 4. Dropcaps ------- */
+
+.dropcap1 {
+	background:transparent url(../images/styles/dropcap.jpg) no-repeat scroll -1px -1px;
+	color:#ef7b25;
+	float:left;
+	font-size:30px;
+	height:40px;
+	line-height:30px;
+	margin-bottom:-5px;
+	margin-right:5px;
+	padding-left:1px;
+	padding-top:5px;
+	text-align:center;
+	width:40px;
+}
+
+.dropcap2 {
+	color:#ef7b25;
+	float:center-left;
+	font-size:40px;
+	line-height:40px;
+	margin:0 5px 0 0;font-family:"Franklin Gothic Medium";
+}
+
+.dropcap3 {
+	color:#130902;
+	display:block;
+	float:left;
+	font-size:13pt;
+	
+	margin:0 5px 0 0;font-family:"Franklin Gothic Medium";
+}
+/* ------- 5. Quotes ------- */
+
+blockquote p{
+	padding: 0px 30px 0px 10px;
+	font-size: 13px;
+	float: left;
+	background: url(../images/styles/blockquote2.jpg) bottom right no-repeat;
+}
+
+blockquote {
+	padding: 3px 10px 20px 20px;
+	background: url(../images/styles/blockquote1.jpg) top left no-repeat;
+}
+
+
+
+
+cite {
+	font-family: 'Droid Serif', arial, serif;
+	margin: 10px 0 30px 20px;
+	font-size: 12px;
+	float: left;
+}
+
+
+/* ------- 6. Table borders ------- */
+
+
+
+
+/* ------- 6. Highlight Styles ------- */
+
+.highlight1 {
+	padding:1px 4px;
+	background-color:#FC9;
+	color:#ef7b25;
+	font-family: arial, serif;
+}
+
+.highlight2 {
+	padding:1px 4px;
+	background-color:#D4BFFF;
+	color:#111;
+	font-family: arial, serif;
+}

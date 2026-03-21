@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* BEGIN Books page content*/
+
+#content_container_books {height:630px;background-color: #ffffff;width:960px;padding:10px;}
+
+#metro_north {border-radius:10px;}
+
+.full_page_books_container{width:960px;}
+
+	.one_half_books_container{width:460px}
+	
+	.one_half_books{width:460px}
+	
+	.one_half_books{position:relative;float:left;margin-left:10px;margin-right:10px;margin-top:10px;margin-bottom:20px;}
+	
+	.one_half_books_container{position:relative;float:left;margin-left:10px;margin-right:10px;margin-top:10px;}
+
+.full_page_books_container{position:relative;float:left;}
+/* END Books page content*/

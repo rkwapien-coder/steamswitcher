@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* STRUCTURE
+   This CSS document contains all the page structure 
+   coding for the primary DIV tags.
+*/
+
+/* Basic CSS Format
+selector {
+	property:value 
+}
+*/
+
+/*BEGIN Body*/
+	body {
+	width:980px;
+	margin:auto;
+	background-color:#2D2D2D;
+	alignment:center;
+	font-family: inherit;
+}
+	
+	
+	#header_container, #nav_highlight_top, #nav_highlight_bottom, nav, #content_container, #footer_highlight, content, footer, #content_container_trains { width:980px;align:"center";}
+
+/*END Body*/
+
+/* BEGIN header*/
+	#header_container {
+	 height:84px;;background-color: #ffffff;border-top-right-radius:10px;border-top-left-radius:10px;
+	}
+	#logo {
+		width:213px;
+		height:84px;
+		padding-left:10px;border-top-right-radius:10px;border-top-left-radius:10px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;
+	}
+
+/* END header*/
+
+#nav_highlight_top {
+	height:4px;
+	background-color:#130902;
+	
+}
+nav{height:36px;background-color:#ffffff;
+}
+#nav_container {height:36px;background-color:#ffffff;
+}
+
+
+/* BEGIN menu*/
+	#menu a{
+		display:inline;
+		float:right;
+		background-position:top;
+		text-indent: -5000em;
+	}
+	#menu a:hover {
+		background-position:bottom;
+	}
+	a#home_btn {height:36px;width:80px;background-image:	url(../images/nav/home_btn.jpg)}
+	
+	a#trains_btn {height:36px;width:80px;background-image:url(../images/nav/trains_btn.jpg)}
+	
+	a#books_btn {height:36px;width:80px;background-image:url(../images/nav/books_btn.jpg)}
+	
+	a#gallery_btn {height:36px;width:80px;background-image:url(../images/nav/gallery_btn.jpg)}
+	
+	a#poems_btn {height:36px;width:80px;background-image:url(../images/nav/poems_btn.jpg)}
+	
+	a#contact_btn {height:36px;width:80px;background-image:url(../images/nav/contact_btn.jpg)}
+
+
+/* END menu*/
+
+	#nav_highlight_bottom {
+		height:4px;
+		background-color:#130902;align:bottom;
+	}
+
+
+/*BEGIN content*/
+
+	
+	#content_container {height:325px;background-color: #ffffff;width:960px;padding:10px;
+	}
+/*BEGIN page highlights*/	
+	
+
+#page_highlight {height:2px;background-color: #ef7b25;width:670px;
+}
+#page_highlight_one_fourth{height:2px;background-color: #ef7b25;width:220px;
+}
+#page_highlight_one_third{height:2px;background-color: #ef7b25;width:300px;
+}
+#page_highlight_one_half {height:2px;background-color: #ef7b25;width:460px;
+}
+#page_highlight_two_thirds{height:2px;background-color: #ef7b25;width:620px;
+}
+#page_highlight_two_thirds{height:2px;background-color: #ef7b25;width:620px;
+}
+#page_highlight_three_fourths{height:2px;background-color: #ef7b25;width:700px;
+}
+#page_highlight_full_page {height:2px;background-color: #ef7b25;width:940px;
+}
+#page_highlight_contact_page {height:2px;background-color: #ef7b25;width:475px;
+}
+#page_highlight_trains_page {height:2px;background-color: #ef7b25;width:752px;
+}
+
+/*END page highlights*/
+/*END Content*/
+	
+/*BEGIN footer*/	
+	
+	#footer_highlight {
+		height:2px;
+		background-color: #ef7b25;
+		
+}
+
+#nav_footer_container {height:40px;background-color:#130902;border-bottom-right-radius:10px;border-bottom-left-radius:10px;
+}
+
+/* BEGIN footer_menu*/
+
+	#footer_menu a{
+		display:inline;
+		float:right;
+		background-position:top;
+		text-indent: -5000em;
+	
+	}
+	#footer_menu a:hover {
+		background-position:bottom;
+	}
+	a#footer_home_btn {height:36px;width:80px;background-image:url(../images/footer/footer_home_btn.jpg)}
+	
+	a#footer_trains_btn {height:36px;width:80px;background-image:url(../images/footer/footer_trains_btn.jpg)}
+	
+	a#footer_books_btn {height:36px;width:80px;background-image:url(../images/footer/footer_books_btn.jpg)}
+	
+	a#footer_gallery_btn {height:36px;width:80px;background-image:url(../images/footer/footer_gallery_btn.jpg)}
+	
+	
+	a#footer_poems_btn {height:36px;width:80px;background-image:url(../images/footer/footer_poems_btn.jpg)}
+	
+	
+	a#footer_contact_btn {height:36px;width:80px;background-image:url(../images/footer/footer_contact_btn.jpg)}
+	
+
+/* END footer_menu*/
+
+footer {
+	height:40px;
+	background-color: #130902;
+	padding-top:5px;border-bottom-right-radius:10px;border-bottom-left-radius:10px;
+}
+/* END footer*/

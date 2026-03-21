@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* LAYOUT
+   This CSS document contains all the columns and 
+   formatting for the content within all the pages.	
+*/
+
+/* Basic CSS Format
+selector {
+	property:value 
+}
+*/
+
+
+/*BEGIN table*/
+table{
+	text-align:center;
+	font-size: 100px;
+	border:1px;
+	width:80%;
+	border-collapse:collapse;
+	border-style:solid;
+	color: #20CF62;
+}
+/* BEGIN Column*/
+
+/*BEGIN spacing between text*/
+.br{height:20px;}
+.br2{height:5px;}
+.br3{height:10px;}
+.br4{width:5px;}
+
+/* BEGIN Normal Column Sizes*/
+
+	.one_fourth{width:220px;}
+	.one_third{width:300px;}
+	.one_third_books{width:300px;}
+	.one_half{width:460px;}
+	.two_thirds{width:620px;}
+	.three_fourths{width:700px;}
+	.full_page{width:940px;}
+	
+	.two_thirds_poems{width:610px;}
+	
+	
+	.two_thirds_poems {position:relative;margin-top:10px;margin-left:30px;margin-right:0px;float:right;}
+	
+.one_third_books {position:relative;margin-top:10px;margin-left:150px;margin-right:10px;margin-bottom:10px;float:left;}
+
+
+	.one_fourth, .train_page, .one_third, .one_half, .two_thirds, .three_fourths, .full_page {position:relative;margin-top:10px;margin-left:10px;margin-right:10px;margin-bottom:10px;float:left;}
+/* END Column Margin + Float */
+
+/* BEGIN Column Reset */
+
+	.reset_columns{clear:left;}
+/* END Column Reset */
+/* END Column*/

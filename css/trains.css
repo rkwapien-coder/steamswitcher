@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* BEGIN Trains page content*/
+
+#content_container_trains{height:700px;background-color: #ffffff;width:960px;padding:10px}
+
+
+
+
+/* BEGIN rounding photos */
+#tomorrow_show {border-radius:10px;}
+
+#snapple {border-radius:10px;}
+
+/* END rounding photos */
+
+/* END Trains page content*/
